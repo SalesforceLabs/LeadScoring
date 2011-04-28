@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Campaign_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sum of all the lead scoring rules from campaign member lead scoring rules</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sum of all the lead scoring rules from campaign member lead scoring rules</inlineHelpText>
+        <label>Campaign Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Priority__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>if( Total_Lead_Score__c &lt;30,&quot;C&quot;,if(Total_Lead_Score__c &lt;50, &quot;B&quot;, &quot;A&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Priority</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Lead Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Lead_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sum of Campaign Score and Lead Score</description>
+        <externalId>false</externalId>
+        <formula>Campaign_Score__c  +Lead_Score__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Sum of Campaign Score and Lead Score</inlineHelpText>
+        <label>Total Lead Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

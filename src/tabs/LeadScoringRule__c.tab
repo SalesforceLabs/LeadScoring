@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>Lead scoring rules are the criteria used to prioritized leads based on who the prospect is and what campaigns they respond to.</description>
+    <mobileReady>false</mobileReady>
+    <motif>Custom57: Building Block</motif>
+</CustomTab>

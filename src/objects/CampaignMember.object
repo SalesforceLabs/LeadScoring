@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Campaign_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the Campaign Score contribution for this campaign member record.  If deleted, this value is used to decrement lead score.  If the campaign member is edited, this value will change if rule criteria are now met, or no longer met.</description>
+        <externalId>false</externalId>
+        <label>Campaign Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
