@@ -6,9 +6,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Clone</actionName>
-        <content>LeadScoringRulesEdit</content>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Visualforce</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Delete</actionName>
@@ -16,9 +14,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Edit</actionName>
-        <content>LeadScoringRulesEdit</content>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Visualforce</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>List</actionName>
@@ -26,9 +22,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
-        <content>LeadScoringRulesEdit</content>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Visualforce</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Tab</actionName>
@@ -36,21 +30,18 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <content>LeadScoringDetail</content>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Visualforce</type>
+        <type>Default</type>
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
-    <deprecated>false</deprecated>
     <description>This object tracks the lead scoring rules to help prioritize leads based on who they are and what they do.</description>
     <enableActivities>false</enableActivities>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <fields>
         <fullName>Active__c</fullName>
         <defaultValue>true</defaultValue>
-        <deprecated>false</deprecated>
         <description>In-Active rules are NOT evaluated when a lead or campaign member is saved.</description>
         <externalId>false</externalId>
         <inlineHelpText>In-Active rules are NOT evaluated when a lead or campaign member is saved.</inlineHelpText>
@@ -60,7 +51,6 @@
     </fields>
     <fields>
         <fullName>Campaign__c</fullName>
-        <deprecated>false</deprecated>
         <description>Selecting a campaign limits the rule to fire only for members of this campaign.  Leaving this blank selects all campaigns.</description>
         <externalId>false</externalId>
         <inlineHelpText>Leave blank to select all campaigns</inlineHelpText>
@@ -73,7 +63,6 @@
     </fields>
     <fields>
         <fullName>Field_Label__c</fullName>
-        <deprecated>false</deprecated>
         <description>This contains the more readable field label of the Field name.  Note this approach doesn&apos;t solve for an org has two fields with the same label.  There&apos;s a chance the wrong field would be used.</description>
         <externalId>false</externalId>
         <label>Field Label</label>
@@ -85,7 +74,6 @@
     </fields>
     <fields>
         <fullName>Field_Name__c</fullName>
-        <deprecated>false</deprecated>
         <description>Field name used for criteria</description>
         <externalId>false</externalId>
         <inlineHelpText>Field name used for criteria</inlineHelpText>
@@ -98,7 +86,6 @@
     </fields>
     <fields>
         <fullName>Operator__c</fullName>
-        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Operator</label>
         <picklist>
@@ -145,7 +132,6 @@
     </fields>
     <fields>
         <fullName>Score_Change__c</fullName>
-        <deprecated>false</deprecated>
         <description>Enter the number of points to add to lead score.  Negative numbers are subtracted from Lead Score.  If Rule Type = Campaign Member, then points count towards Campaign Score on both the lead and Campaign Member.</description>
         <externalId>false</externalId>
         <inlineHelpText>Enter the number of points to add to lead score.  Negative numbers are subtracted from Lead Score.  If Rule Type = Campaign Member, then points count towards Campaign Score on both the lead and Campaign Member.</inlineHelpText>
@@ -159,7 +145,6 @@
     </fields>
     <fields>
         <fullName>Type__c</fullName>
-        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Rule Type</label>
         <picklist>
@@ -178,7 +163,6 @@
     </fields>
     <fields>
         <fullName>Value__c</fullName>
-        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Value</label>
         <length>255</length>
@@ -188,7 +172,6 @@
         <unique>false</unique>
     </fields>
     <label>Lead Scoring Rule</label>
-    <language>en_US</language>
     <listViews>
         <fullName>All</fullName>
         <columns>Active__c</columns>
