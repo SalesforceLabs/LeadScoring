@@ -1,6 +1,9 @@
 LeadScoring helps organizations rate incoming leads using custom criteria.
 
-Note: as of 2011/04/28 this code is for the Managed package version of the app.  Code may require modification before deployment into your development environment.
+Note: as of 2011/04/28 this code is for the Managed package version of the app.  
+
+Code deploys to a clean developer edition environment but may require additional modification
+before use.
 
 Copyright (c) 2011, salesforce.com, Inc.
 All rights reserved.
