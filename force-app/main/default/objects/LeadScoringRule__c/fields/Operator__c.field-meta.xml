@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operator__c</fullName>
+    <externalId>false</externalId>
+    <label>Operator</label>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>equals</fullName>
+                <default>false</default>
+                <label>equals</label>
+            </value>
+            <value>
+                <fullName>not equal to</fullName>
+                <default>false</default>
+                <label>not equal to</label>
+            </value>
+            <value>
+                <fullName>greater than</fullName>
+                <default>false</default>
+                <label>greater than</label>
+            </value>
+            <value>
+                <fullName>less than</fullName>
+                <default>false</default>
+                <label>less than</label>
+            </value>
+            <value>
+                <fullName>greater or equal</fullName>
+                <default>false</default>
+                <label>greater or equal</label>
+            </value>
+            <value>
+                <fullName>less or equal</fullName>
+                <default>false</default>
+                <label>less or equal</label>
+            </value>
+            <value>
+                <fullName>contains</fullName>
+                <default>false</default>
+                <label>contains</label>
+            </value>
+            <value>
+                <fullName>does not contain</fullName>
+                <default>false</default>
+                <label>does not contain</label>
+            </value>
+            <value>
+                <fullName>starts with</fullName>
+                <default>false</default>
+                <label>starts with</label>
+            </value>
+            <sorted>false</sorted>
+        </valueSetDefinition>
+    </valueSet>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+</CustomField>

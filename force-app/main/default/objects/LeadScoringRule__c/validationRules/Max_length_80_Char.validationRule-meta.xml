@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_length_80_Char</fullName>
+    <active>true</active>
+    <description
+    >Nice error message for Max Length of &quot;Value&quot;, which is 80 characters</description>
+    <errorConditionFormula>LEN(Value__c )  &gt;255</errorConditionFormula>
+    <errorMessage
+    >You can only use 80 characters for &quot;Value&quot;.  Please shorten your criteria before saving again.</errorMessage>
+</ValidationRule>

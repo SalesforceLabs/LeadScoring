@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Score_Change__c</fullName>
+    <description
+    >Enter the number of points to add to lead score.  Negative numbers are subtracted from Lead Score.  If Rule Type = Campaign Member, then points count towards Campaign Score on both the lead and Campaign Member.</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+    >Enter the number of points to add to lead score.  Negative numbers are subtracted from Lead Score.  If Rule Type = Campaign Member, then points count towards Campaign Score on both the lead and Campaign Member.</inlineHelpText>
+    <label>Points</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Score__c</fullName>
+    <description
+    >Sum of all the lead scoring rules from campaign member lead scoring rules</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+    >Sum of all the lead scoring rules from campaign member lead scoring rules</inlineHelpText>
+    <label>Campaign Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

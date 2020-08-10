@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description
+    >In-Active rules are NOT evaluated when a lead or campaign member is saved.</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+    >In-Active rules are NOT evaluated when a lead or campaign member is saved.</inlineHelpText>
+    <label>Active</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>
