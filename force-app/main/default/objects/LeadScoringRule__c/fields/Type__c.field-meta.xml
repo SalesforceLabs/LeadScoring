@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Rule Type</label>
+    <valueSet>
+        <valueSetDefinition>
+        <value>
+            <fullName>Lead</fullName>
+            <default>true</default>
+            <label>Lead</label>
+        </value>
+        <value>
+            <fullName>Campaign Member</fullName>
+            <default>false</default>
+            <label>Campaign Member</label>
+        </value>
+        <sorted>false</sorted>
+        </valueSetDefinition>
+    </valueSet>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign__c</fullName>
+    <description
+    >Selecting a campaign limits the rule to fire only for members of this campaign.  Leaving this blank selects all campaigns.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Leave blank to select all campaigns</inlineHelpText>
+    <label>Filter By Campaign (optional):</label>
+    <referenceTo>Campaign</referenceTo>
+    <relationshipLabel>Lead Scoring Rules</relationshipLabel>
+    <relationshipName>Lead_Scoring_Rules</relationshipName>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

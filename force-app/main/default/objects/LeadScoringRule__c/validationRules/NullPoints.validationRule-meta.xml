@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NullPoints</fullName>
+    <active>true</active>
+    <description>Errors if Score is set to null</description>
+    <errorConditionFormula
+    >isnull( Score_Change__c ) || isBlank(Score_Change__c)</errorConditionFormula>
+    <errorMessage>You must enter a value for Points.  
+
+Note you can enter negative values to decrease the lead score if criteria is met.</errorMessage>
+</ValidationRule>

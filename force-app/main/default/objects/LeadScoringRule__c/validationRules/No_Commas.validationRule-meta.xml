@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Commas</fullName>
+    <active>true</active>
+    <description
+    >Disallows comma&apos;s in Value as my code doesn&apos;t support them</description>
+    <errorConditionFormula
+    >OR(contains( Value__c, &quot;,&quot;) , contains( Value__c, &quot;;&quot;))</errorConditionFormula>
+    <errorMessage
+    >Unfortunately, you cannot use a comma or semicolon for either multiple values or numbers. Please remove any commas and semicolons, and if desired, create a second rule for additional criteria.</errorMessage>
+</ValidationRule>

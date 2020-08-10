@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_LeadScore_CampaignScore_TotalScore</fullName>
+    <active>true</active>
+    <errorConditionFormula
+    >Field_Name__c ==&apos;lead_score__c&apos;|| Field_Name__c ==&apos;campaign_score__c&apos;|| Field_Name__c ==&apos;total_score__c&apos;</errorConditionFormula>
+    <errorMessage
+    >You cannot create a rule with Field Name referencing Lead Score, Campaign Score, or Total Score.  Please change the field name for this rule.</errorMessage>
+</ValidationRule>

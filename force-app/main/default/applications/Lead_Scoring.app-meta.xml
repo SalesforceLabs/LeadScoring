@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>LeadScoringRule__c</defaultLandingTab>
+    <description
+    >Lead Scoring prioritizes your leads so you focus on the most promising, saving time and money.  This app lets you define the rules to value demographic information as well as the behavior of your leads.</description>
+    <label>Lead Scoring</label>
+    <tabs>LeadScoringRule__c</tabs>
+    <tabs>Score_All_Leads</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+</CustomApplication>
